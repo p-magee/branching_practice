@@ -1,0 +1,13 @@
+---
+title: "Branch Practice"
+author: "Pete Magee"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
